@@ -8,7 +8,6 @@
 }
 
 body{
-    position: relative;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -16,11 +15,12 @@ body{
     font-size: 150px;
     text-shadow: 0 0 50px;
     color: white;
-    position: relative;
-    width: 100%;
-    left: 40%;
+    position: absolute;
+    width: 25%;
+    left: 37.5%;
     padding: 1%;
-    margin-bottom: 20px;
+    margin-bottom: 90px;
+    text-align: center;
 }
 
 .text-1, .text-2 {
@@ -28,34 +28,106 @@ body{
     margin-bottom: 50px;
 }
 
-#subtitle-1, #subtitle-2 {
-    font-size: 50px;
+#subtitle-1 {
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    width: 30%;
+    font-size: 30px;
     text-shadow: 0 0 50px;
-    padding: 1%;
-    margin: 1%;
 }
 
-#paragraph {
+#subtitle-2 {
+    position: absolute;
+    left: 10%;
+    top: 135%;
+    width: 30%;
     font-size: 30px;
+    text-shadow: 0 0 50px;
+}
+
+#paragraph-1 {
+    font-size: 25px;
+    width: 50%;
     margin: 0;
     padding: 0;
-    position: relative;
-    left: 6%;
+    position: absolute;
+    top: 60%;
+    left: 15%;
 }
 
 #paragraph-2 {
-    font-size: 30px;
+    font-size: 25px;
+    width: 60%;
     padding: 0;
     margin: 0;
-    position: relative;
-    left: 6%;
+    position: absolute;
+    top: 70%;
+    left: 15%;
 }
 
-#font-1, #font-2 {
-    position: relative;
-    margin: 1%;
+#paragraph-3 {
+    font-size: 25px;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+
+#paragraph-4 {
+    font-size: 25px;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 15%;
+}
+
+#paragraph-5 {
+    font-size: 25px;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 150%;
+    left: 15%;
+}
+
+#paragraph-6 {
+    font-size: 25px;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 170%;
+    left: 15%;
+}
+
+#paragraph-7 {
+    font-size: 25px;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 185%;
+    left: 15%;
+}
+
+#font-1 {
+    position: absolute;
     text-shadow: 0 0 30px white;
-    left: 100px;
+    left: 15%;
+    top: 115%;
+}
+
+#font-2 {
+    position: absolute;
+    text-shadow: 0 0 30px white;
+    left: 15%;
+    top: 205%;
 }
 
 #link {
@@ -63,38 +135,49 @@ body{
 }
 
 #image-skeleton, #image-ninjago {
-    position: relative;
+    position: absolute;
     padding: 0;
     border-radius: 50%;
     margin-bottom: 100px;
-    margin: 5%;
+    height: 40%;
 }
 
 #image-skeleton {
     left: 22%;
+    top: 230%;
 }
 
 #image-ninjago {
-    bottom: 500px;
+    top: 230%;
     left: 57%;
 }
 
-#subtle-1, #html, #css {
+#html, #css {
     font-size: 50px;
-    position: relative;
-}
-
-#subtle-1 {
-    bottom: 520px;
-    left: 23.5%;
+    position: absolute;
+    width: 30%;
 }
 
 #html {
-    left: 31%;
-    bottom: 70px;
+    left: 27%;
+    top: 270%;
 }
 
 #css {
-    left: 67%;
-    bottom: 575px;
+    left: 63%;
+    top: 270%;
+}
+
+#paragraph-footer {
+    position: relative;
+    font-size: 20px;
+    padding: 0.3%;
+    top: 1750px;
+    color: white;
+    background: #02a6ff;
+}
+
+#link-2 {
+    color: white;
+    background: #02a6ff; 
 }
